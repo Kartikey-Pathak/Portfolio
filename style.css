@@ -1,11 +1,12 @@
 html {
     scroll-behavior: smooth;
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
     background: radial-gradient(circle, #1B1A27, #0E0D16);
     width: 60vmin;
+    
 }
 span{
     color: white;
@@ -837,6 +838,10 @@ footer{
     font-weight: 200;
     color: rgba(255, 255, 255, 0.629);
     font-weight: 200;
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 

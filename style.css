@@ -456,3 +456,387 @@ footer{
     font-weight: 200;
     color: rgba(255, 255, 255, 0.629);
 }
+
+
+
+/* Responsive styling specifically for Samsung Galaxy F13 and similar mobile devices */
+@media (max-width: 1080px){
+
+    span h3{
+        font-size: 6vh;
+    }
+
+    .navbar{
+        position: relative;
+        left: 170vmin;
+    }
+    .navigate{
+        display: flex;
+        gap: 7vh;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.719);
+        font-size: 7vh;
+        font-weight: 400;
+    }
+
+    .vid{
+        border: 2px solid #aaaaff56;
+        border-radius: 3vmin;
+        position: relative;
+        height: 100vh;
+        width: 150vh;
+        top: 65vmin;
+        left: 130vmin;
+        transition: transform 0.4s ease-out;
+    }
+    .vid video {
+        object-fit: cover; /* Ensures the video covers the div without distortion */
+        width: 100%;  /* Make the video take the full width */
+        height: 100%; /* Make the video take the full height */
+        border-radius: 8vmin;
+    }
+
+    .vid:hover{
+        transform: scale(1);
+        cursor: pointer;
+    }
+
+
+    .tech{
+        position: relative;
+        color: white;
+        border: 4px;
+        width: 220vh;
+        height: 60vh;
+        bottom: 180vmin;
+        left: 6vmin;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8.5vmin;
+    }
+    .html,.css,.js{
+        border: 10px solid rgba(255, 255, 255, 0.404);
+        width: 30vmin;
+        height: 15vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10vmin;
+        font-size: 8vmin;
+        font-weight: 400;
+    }
+
+    .intro{
+        color: white;
+        position: relative;
+        bottom: 160vmin;
+        left: 8vmin;
+        border: 2px ;
+        height: 105vmin;
+        width: 160vmin;
+    }
+    .intro h1{
+        font-size: 20vmin;
+    }
+    .intro h2{
+        color: #aaaaff;
+        font-size: 20vmin;
+    }
+    .intro h3{
+        color: rgba(255, 255, 255, 0.551);
+        font-weight: 300;
+        font-size: 9vmin;
+        position: relative;
+        top: 70vmin;
+        left: 10vmin;
+    }
+
+    .touch{
+        position: relative;
+        bottom: 60vmin;
+        left: 16vmin;
+        border: 4px ;
+        border-radius: 6vmin;
+        height: 40vmin;
+        width: 120vmin;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       background-color: #6b6fe0;
+    }
+    .touch:hover{
+       cursor: pointer;
+       background-color:#6b6fe0da ;
+       transition: 0.3s;
+       transform: scale(0.8);
+    }
+    .touch a{
+        text-decoration: none;
+        color: #0E0D16;
+        font-size: 13vmin;
+        font-weight: 500;
+    }
+
+    .introduction{
+        position: relative;
+        bottom: -30vmin;
+        left: 20vmin;
+        border: 1px ;
+        height: 90vmin;
+        width: 340vmin;
+        color: rgba(255, 255, 255, 0.871);
+        line-height: 2;
+        font-size: 8vmin;
+    }
+    .introduction h3{
+        color: #aaaaff;
+        position: relative;
+        top: 3vmin;
+        left: 3vmin;
+        font-size: 4vmin;
+    }
+
+    .game{
+        width: 300vmin;
+        height: 60vmin;
+        border: 1px ;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10vmin;
+        position: relative;
+        bottom: 2vmin;
+        left: 15vmin;
+    }
+    .game h3{
+        font-size: 11vmin;
+    }
+    .game h4{
+        font-size:8vmin;
+        position: relative;
+        bottom: 60vmin;
+        left: 155vmin;
+    }
+
+    .proj{
+        color: #aaaaff;
+        position: relative;
+        top: 140vmin;
+        border:1px ;
+        width: 105vmin;
+        height: 20vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vmin;
+        left: 8vmin;
+        font-size: larger;
+        flex-wrap: wrap;
+    }
+    .project{
+        border: 1px ;
+        height: 75vh;
+        width: 245vh;
+        position: relative;
+        left: 10vmin;
+        top: 390vmin;
+        display: flex;
+        flex-wrap: wrap; gap: 10vh;
+    }
+
+    .project1{
+        height: 85vh;
+        width: 105vh;
+        position: relative;
+        border: 8px solid #aaaaff56;
+        border-radius: 3vmin;
+    
+        transition: transform 0.3s ease-out;
+    }
+    .project2{
+        height: 85vh;
+        width: 105vh;
+        position: relative;
+        border: 8px solid #aaaaff56;
+        border-radius: 3vmin;
+        
+        transition: transform 0.3s ease-out;
+    }
+
+    .proj{
+        width: 190vmin;
+    }
+    .proj h1,i{
+        position: relative;
+        right: 40vmin;
+        font-size: 18vmin;
+        top: 135vmin;
+    }
+    .proj h2{
+        position: relative;
+        bottom: -125vmin;
+        font-size: 10vmin;
+        color: white;
+    }
+    .proj h4{
+        color: rgba(255, 255, 255, 0.562);
+        position: relative;
+        bottom: -115vmin;
+        left: 10vmin;
+        font-weight: 200;
+        font-size: 8.5vmin;
+    }
+
+    .links{
+        position: relative;
+        height: 10vmin;
+        width: 325vmin;
+        border: 1px ;
+        display: flex;
+        gap: 115vh;
+        top: 420vmin;
+        flex-direction: row;
+    }
+.tic{
+    position: relative;
+    right: 20vmin;
+}
+#calcc{
+    position: relative;
+    right: 40vmin;
+}
+
+    .high{
+        height: 72vh;
+        width: 224vh;
+        border: 1px ;
+        position: relative;
+        top: 510vmin;
+        left: 2vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vh;
+        color: #aaaaff;
+        flex-wrap: wrap;
+    }
+    .high h1{
+        position: relative;
+        bottom: 1vmin;
+    }
+    .high h2{
+        color: white;
+        font-size: 7vh;
+        position: relative;
+        bottom: 8vmin;
+        left: 6vmin;
+    }
+
+
+    footer{
+        top: 300vmin;
+        height: 1100vmin;
+    }
+    .mail-box{
+        top: 680vmin;
+        height: 100vh;
+        width: 220vh;
+    }
+    .mail-txt{
+        width: 260vh;
+        display: flex;
+        gap: 10vmin;
+    }
+    .mail-txt h2{
+        font-size: 14vh;
+        position: relative;
+        right: 70vmin;
+    }
+    .mail-box h1{
+        font-size: 14vh;
+        position: relative;
+        right:70vmin;
+    }
+    .mail-txt h3{
+        font-size: 6.2vh;
+        position: relative;
+        bottom: 40vmin;
+        right: 75vmin;
+    }
+    .back{
+        top: 760vmin;
+        left: 145vmin;
+
+        height: 35vmin;
+        width: 105vmin;
+        border: 6px solid rgba(255, 255, 255, 0.57);
+        border-radius: 9vmin;
+    }
+    .back:hover{
+        transform: scale(0.8);
+    }
+    .mail{
+        position: relative;
+        top: 90vmin;
+        height: 20vh;
+        width: 70vh;
+        position: relative;
+        left: 130vmin;
+        border: 6px solid rgba(255, 255, 255, 0.57);
+        border-radius: 9vmin;
+   }
+   .mail h1{
+    font-size: 12vh;
+    position: relative;
+    left: 1vmin;
+   }
+
+   .made{
+    position: relative;
+    top: 820vmin;
+    left: -2vmin;
+    width: 125vmin;
+    border: 1px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 8vmin;
+}
+  .made h1{
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.629);
+    font-size:5vh;
+    font-weight: 200;
+}
+  .vs{
+    height: 12vmin;
+    width: 12vmin;
+    border: 1px ;
+    background-image: url(vscode.png);
+    background-size: cover;
+}
+
+.time{
+    width: 125vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 750vmin;
+    left: 280vmin;
+    border: 1px;
+}
+.time h1{
+    font-size: 5vh;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.629);
+    font-weight: 200;
+}
+
+
+}

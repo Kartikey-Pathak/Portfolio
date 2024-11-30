@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background: radial-gradient(circle, #1B1A27, #0E0D16);
+    width: 60vmin;
+}
+span{
+    color: white;
+    position: relative;
+    left: 15vmin;
+    top: 2vmin;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: large;
+    font-weight: 400;
+}
+a:hover{
+    color: white;
+}
+.navbar{
+    position: relative;
+    left: 150vmin;
+}
+.navigate{
+    display: flex;
+    gap: 2vmin;
+}
+
+.vid{
+    border: 2px solid #aaaaff56;
+    border-radius: 3vmin;
+    position: relative;
+    height: 70vh;
+    width: 110vh;
+    top: 10vmin;
+    left: 90vmin;
+    transition: transform 0.4s ease-out;
+}
+.vid:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.vid video {
+    object-fit: cover; /* Ensures the video covers the div without distortion */
+    width: 100%;  /* Make the video take the full width */
+    height: 100%; /* Make the video take the full height */
+    border-radius: 3vmin;
+}
+
+.tech{
+    position: relative;
+    color: white;
+    border: 4px;
+    width: 30vmin;
+    height: 5vmin;
+    bottom: 60vmin;
+    left: 8vmin;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2vmin;
+}
+.html,.css,.js{
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    width: 8.6vmin;
+    height: 3.6vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vmin;
+    font-size: 1.8vmin;
+    font-weight: 400;
+}
+.html:hover{
+    transform: scale(1.1);
+    position: relative;
+    bottom: 1vmin;
+    transition: 0.5s;
+    background-color: #6163C2;
+    cursor: pointer;
+    color: #0E0D16;
+    border: none;
+}
+.css:hover{
+    transform: scale(1.1);
+    position: relative;
+    bottom: 1vmin;
+    transition: 0.5s;
+    background-color: #6163C2;
+    cursor: pointer;
+    color: #0E0D16;
+    border: none;
+}
+.js:hover{
+    transform: scale(1.1);
+    position: relative;
+    bottom: 1vmin;
+    transition: 0.5s;
+    background-color: #6163C2;
+    cursor: pointer;
+    color: #0E0D16;
+    border: none;
+}
+.intro{
+    color: white;
+    position: relative;
+    bottom: 60vmin;
+    left: 8vmin;
+    border: 2px ;
+    height: 55vmin;
+    width: 60vmin;
+}
+.intro h1{
+    font-size: 10vmin;
+}
+.intro h2{
+    color: #aaaaff;
+    font-size: 10vmin;
+}
+.intro h3{
+    color: rgba(255, 255, 255, 0.551);
+    font-weight: 300;
+}
+.touch{
+    position: relative;
+    bottom: 65vmin;
+    left: 8vmin;
+    border: 2px ;
+    border-radius: 3vmin;
+    height: 7vmin;
+    width: 20vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #6b6fe0;
+}
+.touch:hover{
+   cursor: pointer;
+   background-color:#6b6fe0da ;
+   transition: 0.3s;
+}
+.touch a{
+    text-decoration: none;
+    color: #0E0D16;
+    font-size: large;
+    font-weight: 500;
+}
+.fa-arrow-right{
+    font-size: 4vmin;
+    position: relative;
+    
+    background-color: red;
+}
+.introduction{
+    position: relative;
+    bottom: 15vmin;
+    left: 8vmin;
+    border: 1px ;
+    height: 60vmin;
+    width: 150vmin;
+    color: rgba(255, 255, 255, 0.871);
+    line-height: 1.5;
+    font-size: larger;
+}
+.introduction h3{
+    color: #aaaaff;
+    position: relative;
+    top: 3vmin;
+    left: 3vmin;
+    font-size: 4vmin;
+}
+.game{
+    width: 120vmin;
+    height: 20vmin;
+    border: 1px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vmin;
+    position: relative;
+    bottom: 2vmin;
+    left: 15vmin;
+}
+.game h4{
+    color: rgba(255, 255, 255, 0.663);
+}
+
+.proj{
+    color: #aaaaff;
+    position: relative;
+    top: 10vmin;
+    border:1px ;
+    width: 105vmin;
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    left: 8vmin;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+.proj h1,i{
+    position: relative;
+    right: 40vmin;
+    font-size: 3.8vmin;
+}
+.proj h2{
+    position: relative;
+    bottom: 9vmin;
+    font-size: 6vmin;
+    color: white;
+}
+.proj h4{
+    color: rgba(255, 255, 255, 0.562);
+    position: relative;
+    bottom: 17vmin;
+}
+.project{
+    border: 1px ;
+    height: 75vh;
+    width: 205vh;
+    position: relative;
+    left: 10vmin;
+    top: 20vmin;
+    display: flex;
+    flex-wrap: wrap; gap: 10vh;
+}
+.project1{
+    height: 60vh;
+    width: 90vh;
+    position: relative;
+    border: 2px solid #aaaaff56;
+    border-radius: 3vmin;
+
+    transition: transform 0.3s ease-out;
+}
+.project2{
+    height: 60vh;
+    width: 90vh;
+    position: relative;
+    border: 2px solid #aaaaff56;
+    border-radius: 3vmin;
+    
+    transition: transform 0.3s ease-out;
+}
+.project1 video,.project2 video {
+    object-fit: cover; /* Ensures the video covers the div without distortion */
+    width: 100%;  /* Make the video take the full width */
+    height: 100%; /* Make the video take the full height */
+    border-radius: 3vmin;
+    border-radius: 3vmin;
+
+
+}
+.project1:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+
+}
+.project2:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+
+}
+.project1 a:hover{
+    transform: scale(1);
+}
+.links{
+    position: relative;
+    height: 10vmin;
+    width: 205vmin;
+    border: 1px ;
+    display: flex;
+    gap: 102vh;
+    top: 8vmin;
+}
+.tic{
+    position: relative;
+    left: 12vmin;
+}
+.high{
+    height: 52vh;
+    width: 204vh;
+    border: 1px ;
+    position: relative;
+    top: 12vmin;
+    left: 2vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    color: #aaaaff;
+    flex-wrap: wrap;
+}
+.high h1{
+    position: relative;
+    bottom: 10vmin;
+}
+.high h2{
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    bottom: 18vmin;
+    left: 6vmin;
+}
+.fa-circle{
+    color: #aaaaff;
+    font-size: 2vmin;
+    position: relative;
+    right:119vmin;
+    top: 2.8vmin;
+}
+#circle{
+    color: #aaaaff;
+    position: relative;
+    right:70vmin;
+    top: -11vmin;
+}
+
+footer{
+    height: 140vmin;
+}
+
+.mail-box{
+    position: relative;
+    top: 20vmin;
+    left: 8vmin;
+    height: 50vmin;
+    width: 190vmin;
+    background-color: #221c33;
+}
+.mail-box h1{
+    font-size: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.mail-txt{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px;
+    width: 100vmin;
+    position: relative;
+    left: 44vmin;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    height: 25vmin;
+}
+.mail-txt h2{
+    color: #aaaaff;
+    font-size: 8vh;
+}
+.mail-txt h3{
+    position: relative;
+    bottom: 9vmin;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.492);
+}
+.mail{
+    height: 10vmin;
+    width: 30vmin;
+    border-radius: 3vmin;
+    background: transparent;
+    position: relative;
+    left: 77vmin;
+    top: 9vmin;
+    border: 2px solid rgba(255, 255, 255, 0.57);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 0.2s  ease-out;
+}
+.mail h1{
+    font-size: 3vh;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.504);
+    transition: 0.5s;
+}
+.mail i{
+    position: relative;
+    right: 6vmin;
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
+.mail:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.made{
+    position: relative;
+    top: 75vmin;
+    left: 8vmin;
+    width: 25vmin;
+    border: 1px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1vmin;
+}
+.made h1{
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.629);
+    font-size: 2vmin;
+}
+.vs{
+    height: 3vmin;
+    width: 3vmin;
+    border: 1px ;
+    background-image: url(vscode.png);
+    background-size: cover;
+}
+.back{
+    position: relative;
+    left: 85vmin;
+    top: 55vmin;
+    height: 10vmin;
+    width: 30vmin;
+    border: 2px solid rgba(255, 255, 255, 0.57);
+    border-radius: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.2s ease-out;
+}
+.back:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.time{
+    width: 25vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 56vmin;
+    left: 160vmin;
+    border: 1px;
+}
+.time h1{
+    font-size: 2vmin;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.629);
+}
